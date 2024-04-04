@@ -26,6 +26,11 @@ public class BasePage {
 	public void test() {
 		System.out.println("this is added for testing");	
 	}
+	
+	public void addedLocal() {
+		System.out.println("added from local");
+		
+	}
 	public void selectCheckbox(List<WebElement> chkBoxs, List<String> hobbie) {
 		for (String hob : hobbie) {
 			for (WebElement chkBtn : chkBoxs) {
